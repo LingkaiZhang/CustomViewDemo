@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 //配置引用共享配置文件 @方法一
-apply from: "${project.rootDir}/common_config.gradle"
+//apply from: "${project.rootDir}/common_config.gradle"
 
 android {
     compileSdkVersion project.ext.compileSdkVersion

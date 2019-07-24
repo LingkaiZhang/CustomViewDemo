@@ -22,6 +22,11 @@ allprojects {
     }
 }
 
+//在根目录中配置共享变量，以便每个module都可以引用
+subprojects{
+    apply from: "${project.rootDir}/common_config.gradle"
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

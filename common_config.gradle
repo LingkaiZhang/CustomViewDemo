@@ -1,0 +1,5 @@
+project.ext {
+
+    compileSdkVersion = 28
+    buildToolsVersion = "29.0.0"
+}
